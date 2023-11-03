@@ -1,0 +1,277 @@
+.kolona {
+  float: left;
+  margin-right: 3%;
+  height: 300px;
+}
+
+.kartica:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+.kartica:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.kartica {
+  flex-grow: 1;
+  margin-left: 4%;
+  margin-top: 2%;
+  background-color: white;
+  width: 220px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.karta {
+  height: 300px;
+}
+.karta .kart-slika img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 220px;
+}
+.karta .bord {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px 24px;
+}
+.prtg {
+  width: 30%;
+  height: 30px;
+  position: relative;
+}
+.bord span {
+  position: relative;
+  left: 50px;
+}
+.rstva {
+  margin-top: 3%;
+}
+/**/
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 500%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.zatvori {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.slika img {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: inline-block;
+  position: relative;
+}
+.slika {
+  width: 45%;
+  height: 100%;
+  background-color: black;
+  display: inline-block;
+  position: relative;
+}
+.kar {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-left: 10%;
+  color: #bbbbbb;
+}
+.sio {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+.sio label {
+  margin-right: 10%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.sio span {
+  font-family: "Brush Script MT", cursive;
+}
+.dugpor {
+  background-color: #161616;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 40%;
+  font-size: 15px;
+}
+.naslov {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  margin-bottom: 10%;
+}
+.ocena {
+  margin-top: 10%;
+}
+.ocena input[type="text"] {
+  height: 10%;
+  width: 60%;
+  margin-left: 10%;
+  font-family: "Courier New", Courier, monospace;
+}
+.ocena input[type="radio"] {
+  margin-left: 3%;
+}
+.rad {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.ocena button {
+  background-color: bisque;
+  margin-left: 1%;
+  color: black;
+  padding: 10px 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+.srch {
+  margin-left: 40%;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 580px) {
+  .kartica {
+    flex-grow: 1;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-color: white;
+    width: 180px;
+    display: inline-block;
+    border: 2px solid black;
+  }
+  .karta .kart-slika img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+  }
+  .karta .bord {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 16px 24px;
+  }
+
+  .bord span {
+    position: relative;
+    left: 10px;
+  }
+  .rstva {
+    font-size: 15px;
+  }
+  .proba {
+    margin-top: 2%;
+    background-image: url("https://cdn.architextures.org/textures/20/11/charred-timber-5fc4cb0884792-1200.jpg");
+    border-radius: 20px;
+    position: relative;
+    margin-left: 10%;
+    width: 85%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 750px;
+    border: 2px solid black;
+  }
+  .slika img {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    position: relative;
+  }
+  .slika {
+    margin-top: -10%;
+    width: 110%;
+    height: 50%;
+    background-color: black;
+
+    position: relative;
+  }
+  .kar {
+    margin-top: 5%;
+    margin-right: 5%;
+    position: absolute;
+    margin-left: 0%;
+    width: 100%;
+    height: 130%;
+    background-color: black;
+
+    color: #bbbbbb;
+  }
+  .sio {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .dugpor {
+    background-color: #161616;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+  .rad {
+    margin-left: 0%;
+    font-size: 80%;
+  }
+  .ocena button {
+    background-color: bisque;
+
+    color: black;
+    padding: 5px 5px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}

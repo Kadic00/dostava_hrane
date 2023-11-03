@@ -1,0 +1,72 @@
+.racun {
+  width: 20%;
+  height: 600%;
+  background-color: aliceblue;
+  position: relative;
+  left: 40%;
+  top: 50%;
+}
+.id {
+  position: relative;
+  top: 4%;
+  left: 30%;
+}
+.polje {
+  position: relative;
+  margin-top: 5%;
+  font-size: 120%;
+}
+.polje span {
+  position: relative;
+  margin-left: 5%;
+}
+.kupac {
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.trans {
+  margin-top: 15%;
+  margin-left: 5%;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 20%;
+}
+.poljee {
+  position: absolute;
+  bottom: 5%;
+  font-size: 120%;
+  margin-left: 40%;
+}
+.tabelica {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  width: 90%;
+}
+.tabelica thead tr {
+  background-color: black;
+  color: #ffffff;
+  text-align: left;
+}
+.tabelica th,
+.tabelica td {
+  width: 2%;
+  padding: 8px 15px;
+}
+.tabelica tbody tr {
+  border-bottom: 1px solid black;
+}
+
+.tabelica tbody {
+  background-color: #f3f3f3;
+}
+
+@media screen and (max-width: 580px) {
+  .racun {
+    width: 70%;
+    height: 600%;
+    background-color: aliceblue;
+    position: relative;
+    left: 15%;
+    top: 50%;
+  }
+}

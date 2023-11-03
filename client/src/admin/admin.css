@@ -1,0 +1,289 @@
+body .adm {
+  overflow: visible;
+}
+header {
+  background-color: #161616;
+  height: 70px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.nas {
+  color: aliceblue;
+  margin-top: 0.5%;
+  font-size: 30px;
+}
+
+.tabelaa {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: 3%;
+}
+.tabelaa thead tr {
+  background-color: black;
+  color: #ffffff;
+  text-align: left;
+}
+.tabelaa th,
+.tabelaa td {
+  padding: 12px 10px;
+}
+.tabelaa tbody tr {
+  border-bottom: 1px solid black;
+}
+
+.tabelaa tbody {
+  background-color: #f3f3f3;
+}
+
+.dugadm {
+  background-color: #161616;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.izmeni {
+  background-color: white;
+  width: 25em;
+  height: 40em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40%;
+}
+.izmeni input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 70%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.izmeni select {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 70%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.tab {
+  margin-top: 2%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.dugdod button {
+  margin-top: 5%;
+  padding: 4%;
+  font-size: 20px;
+  margin-left: 20%;
+}
+.graf1 {
+  height: 32%;
+  width: 120%;
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-top: 2%;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+.adminstr {
+  display: flex;
+}
+
+.izmeni_admin {
+  background-color: white;
+  width: 30%;
+  height: 40em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+.izmeni_admin input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 70%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.izmeni_admin select {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 78%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.graf2 {
+  height: 32%;
+  width: 120%;
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-top: 3%;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+.graf3 {
+  height: 35%;
+  width: 120%;
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-top: 3%;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.dugdod button {
+  border: 2px solid black;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.dodajproizvod {
+  background-color: white;
+  width: 30%;
+  height: 40em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+.dodajproizvod input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 70%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.dodajproizvod select {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 78%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.login-btn a {
+  color: #f3f3f3;
+}
+
+@media screen and (max-width: 580px) {
+  .tabelaa {
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 0.5em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 3%;
+  }
+  .tabelaa th,
+  .tabelaa td {
+    padding: 8px 4px;
+  }
+  .graf1 {
+    height: 32%;
+    width: 95%;
+    background-color: #ffffff;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 5%;
+  }
+  .graf2 {
+    height: 32%;
+    width: 95%;
+    background-color: #ffffff;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 5%;
+  }
+  .graf3 {
+    height: 35%;
+    width: 95%;
+    background-color: #ffffff;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 5%;
+  }
+  .tab {
+    margin-top: 2%;
+
+    height: 250px;
+  }
+  .dugadm {
+    padding: 7px 5px;
+
+    font-size: 7px;
+  }
+  .dugdod button {
+    margin-top: 1%;
+    padding: 4%;
+    font-size: 10px;
+  }
+  .adminstr {
+    display: block;
+  }
+  .grafici {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 40%;
+  }
+}
+.gr3 {
+  margin-left: 8%;
+  font-size: 20px;
+}
+.gr2 {
+  margin-left: 17%;
+  font-size: 20px;
+}
+.gr1 {
+  margin-left: 4%;
+  font-size: 20px;
+}
+.graf1 select {
+  background-color: #161616;
+  color: white;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.graf3 select {
+  background-color: #161616;
+  color: white;
+  margin-left: 2%;
+  margin-top: 2%;
+}

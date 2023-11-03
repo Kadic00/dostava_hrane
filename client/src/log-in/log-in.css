@@ -1,0 +1,80 @@
+.log {
+  background-image: url("../potreba/hrana.jpg");
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.logovanje {
+  background-color: white;
+  width: 25em;
+  height: 30em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.logovanje input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+.login-btn {
+  width: 90px;
+  height: 3em;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.reg {
+  background-image: url("../potreba/hrana.jpg");
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.registracija {
+  background-color: white;
+  width: 25em;
+  height: 40em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.registracija input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 70%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.registracija select {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  width: 82%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}

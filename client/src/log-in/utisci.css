@@ -1,0 +1,101 @@
+.tabla {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 500%;
+  background-image: url("https://cdn.architextures.org/textures/20/11/charred-timber-5fc4cb0884792-1200.jpg");
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.kom {
+  width: 15%;
+  height: 20%;
+  background-color: white;
+  flex-grow: 1;
+  margin-left: 4%;
+  margin-top: 2%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+}
+.kom:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  cursor: pointer;
+}
+.mod {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 300px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.hidden {
+  display: none;
+}
+.zatvori {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.kor {
+  margin-top: 10%;
+  text-align: center;
+}
+@media screen and (max-width: 580px) {
+  .tabla {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 600%;
+    background-image: url("https://cdn.architextures.org/textures/20/11/charred-timber-5fc4cb0884792-1200.jpg");
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  .kom {
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    flex-grow: 1;
+    margin-left: 4%;
+    margin-top: 10%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .kom label {
+    margin-top: 10%;
+  }
+  .mod {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+}

@@ -1,0 +1,134 @@
+.korpa {
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 500%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.korpa-naslov {
+  background-color: #161616;
+  width: 100%;
+  height: 20%;
+  color: white;
+}
+.korpa-sadrzaj {
+  background-color: #201e1e;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 80%;
+}
+
+.cenatran {
+  display: inline-block;
+  height: 100%;
+  font-size: 30px;
+  position: absolute;
+  right: 5%;
+  top: 12%;
+}
+.tabela_korpa {
+  width: 100%;
+}
+.tabela_korpa tr {
+  background-color: white;
+  margin: 25px 0;
+  height: 20%;
+  border: 1px solid black;
+  position: relative;
+}
+.tabela_korpa td {
+  padding: 12px 10px;
+  width: auto;
+  text-align: center;
+}
+
+.nazpro {
+  font-size: 30px;
+
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.cenpro {
+  font-size: 30px;
+  margin-top: 3%;
+  margin-left: 17%;
+}
+.ost {
+  position: absolute;
+  top: 250%;
+  left: 72%;
+  width: 15%;
+  height: 300%;
+  background-color: white;
+}
+.rad {
+  margin-top: 10%;
+}
+.dp {
+  background-color: #161616;
+  color: white;
+  margin-top: 10%;
+  margin-left: 40%;
+  max-width: 100%;
+  padding: 10px 15px;
+}
+
+.tabela_korpa img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  width: 100px;
+}
+.komentar_korpa {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.komentar_korpa textarea {
+  resize: none;
+  max-width: 100%;
+  height: 110px;
+}
+.dugme_korpa_brisanje {
+  padding: 10px 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 580px) {
+  .korpa {
+    top: 400%;
+
+    width: 80%;
+    height: 500%;
+  }
+  .ost {
+    position: absolute;
+    top: 680%;
+    left: 9%;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+  }
+  .rad {
+    margin-top: 0%;
+  }
+  .komentar_korpa {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  .komentar_korpa textarea {
+    resize: none;
+    max-width: 100%;
+    height: 40px;
+  }
+  .dp {
+    background-color: #161616;
+    color: white;
+    margin-top: 0%;
+    margin-left: 80%;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,41 @@
+body {
+  background-image: url("./potreba/hrana.jpg");
+  overflow: hidden;
+  margin: 0;
+}
+.app {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  left: 50%;
+}
+.proba {
+  margin-top: 2%;
+  background-image: url("https://cdn.architextures.org/textures/20/11/charred-timber-5fc4cb0884792-1200.jpg");
+  border-radius: 20px;
+  position: relative;
+  margin-left: 10%;
+  width: 85%;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 750px;
+  border: 2px solid black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 580px) {
+  body {
+    background-image: url("./potreba/hrana.jpg");
+    overflow: hidden;
+    margin: 0;
+    height: 900px;
+  }
+}
